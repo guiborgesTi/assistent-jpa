@@ -1,0 +1,8 @@
+# gradle
+build/
+
+# java
+.settings/
+*.jar
+*.war
+*.ear

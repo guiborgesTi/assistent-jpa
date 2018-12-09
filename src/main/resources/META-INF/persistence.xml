@@ -1,0 +1,9 @@
+<persistence>
+   <persistence-unit name="assistent">
+      <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+      <jta-data-source>java:/AssistentDS</jta-data-source>
+      <properties>
+        <class>br.com.api.entity.UserEntity</class>
+      </properties>
+   </persistence-unit>
+</persistence>
